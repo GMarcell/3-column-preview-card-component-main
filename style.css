@@ -42,7 +42,7 @@ ul {
 }
 
 button {
-    border: none;
+    border: 2px solid white;
     background-color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -60,6 +60,11 @@ button {
     color: hsl(31, 77%, 52%);
 }
 
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
 .suvs {
     padding: 25px;
     background-color: hsl(184, 100%, 22%);
@@ -67,6 +72,11 @@ button {
 
 .suvs button {
     color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
@@ -78,6 +88,11 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
+.luxury button:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -87,7 +102,7 @@ button {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 900px) {
     .sedans {
         float: left;
     }
