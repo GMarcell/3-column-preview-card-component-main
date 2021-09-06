@@ -51,12 +51,6 @@ First I Build the HTML File, and import the font that needed. ANd then I start w
 
 I learn how to use the flex display, and more fluent in styling my HTML.
 
-### Continued development
-
-
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/) - This helped me for center the container div
